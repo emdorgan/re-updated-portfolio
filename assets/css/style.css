@@ -7,5 +7,40 @@
 
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #121212;
+}
+
+.nav-custom{
+  background-color: var(--mainSiteColor);
+  font-size: 1.5em;
+}
+
+.nav-custom a, .nav-custom a:visited {
+  color: rgb(0, 0, 0);
+}
+.custom-hamburger {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+}
+
+.nav-custom a:hover{
+  color: rgb(31, 107, 194);
+}
+
+.nav-custom li a:hover{
+  text-decoration-line: underline;
+}
+.my-name{
+  font-size: 1.5em;
+  padding-left: 30px;
+}
+
+.custom-align{
+  flex-grow: 0;
+}
+
+.profile {
+  height: 152px;
+  width: 152px;
+  border-radius: 50%;
+  margin-bottom: 5px;
 }
