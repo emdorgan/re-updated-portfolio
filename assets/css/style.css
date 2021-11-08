@@ -1,3 +1,8 @@
+:root {
+  --mainSiteColor: #ffb6c2;
+  --secondSiteColor: #07268d;
+}
+
 
 *,
 *::before,
@@ -23,7 +28,7 @@ body{
 }
 
 .nav-custom a:hover{
-  color: rgb(31, 107, 194);
+  color: var(--secondSiteColor)
 }
 
 .nav-custom li a:hover{
