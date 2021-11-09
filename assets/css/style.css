@@ -1,3 +1,4 @@
+/* Everytime I do a portfolio, I'm trying different combinations of the same 2 colors to get a feel for the design */
 :root {
   --mainSiteColor: #ffb6c2;
   --secondSiteColor: #07268d;
@@ -12,6 +13,7 @@
 
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #d4e3f4;
 }
 
 .nav-custom{
@@ -20,10 +22,10 @@ body{
 }
 
 .nav-custom a, .nav-custom a:visited {
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 .custom-hamburger {
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 2em;
 }
 
@@ -51,8 +53,9 @@ body{
 }
 
 section {
-  color: white;
+  color: #000000;
   height: 100vh;
+  /* this padding ensures nothing goes under the fixed nav bar */
   padding-top:  190px;
   margin-left: 2%;
   margin-right: 2%;
@@ -92,4 +95,38 @@ section h2 {
 .landing-text a {
   text-decoration: none;
   color: #000000;
+}
+
+section article {
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.custom-card {
+  background-color: white;
+  margin: 20px;
+  width: 24rem;
+  border: 1px solid#d4d9f4;
+}
+.custom-card-body {
+  text-align: center;
+  border-top: 1px solid#d4d9f4;;
+}
+
+.custom-btn {
+  background-color:var(--mainSiteColor);
+  border-color: var(--mainSiteColor);
+  margin: 5px;
+  color:#000000;
+}
+
+.custom-btn:hover {
+  background-color:rgb(170, 59, 124);
+  border-color: rgb(170, 59, 133);
 }
