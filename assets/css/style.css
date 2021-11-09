@@ -130,3 +130,14 @@ section article {
   background-color:rgb(170, 59, 124);
   border-color: rgb(170, 59, 133);
 }
+
+.contact-me a{
+  text-decoration: none;
+  color: var(--mainSiteColor);
+}
+.contact-me a:hover {
+  color:rgb(170, 59, 133);
+}
+.contact-me i {
+  padding: 5px;
+}
