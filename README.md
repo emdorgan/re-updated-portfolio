@@ -1,16 +1,16 @@
 # Updated Portfolio
 
-The portfolio has been rebuilt from scratch again. Although I re-used some elements from the previous re-build.
+The portfolio has been rebuilt and a different color scheme and updated to display my lateset project and resume. The site is mobile responsive and I used bootstrap for the nav bar and cards displaying each project. Pictures in the about me now have a nice border around them
 
 ## Deployed Link
 
-* [See Live Site]()
+* [See Live Site](https://emdorgan.github.io/re-updated-portfolio/)
 
 ## Screenshots
 
-![](screenshots/)
-![](screenshots/)
-![](screenshots/)
+![Projects](screenshots/portfolio-1.png)
+![About me](screenshots/portfolio-2.png)
+![Responsive mobile](screenshots/portfolio-3.png)
 
 ## Built With
 

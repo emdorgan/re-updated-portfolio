@@ -62,7 +62,7 @@ section {
 }
 
 #portfolio {
-  height: 200vh;
+  height: 150vh;
 }
 
 section h2 {
@@ -211,7 +211,7 @@ section article {
   }
 
   #portfolio {
-    height: 310vh;
+    height: 460vh;
   }
   .landing-text { 
     margin: 10% 5% 20% 5%;
